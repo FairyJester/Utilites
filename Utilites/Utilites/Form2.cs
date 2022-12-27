@@ -22,7 +22,7 @@ namespace Utilites
             this.water = water;
             this.electricity = electricity;
         }
-
+//кнопка ввода данных счетчиков, перехода на окно просмотра и подсчет конечной суммы
         private void button2_Click(object sender, EventArgs e)
         {
             double inputWater = Convert.ToDouble(textBox1.Text);
@@ -50,7 +50,7 @@ namespace Utilites
             form3.Show();
             this.Hide();
         }
-
+//кнопка возврата
         private void button1_Click(object sender, EventArgs e)
         {
             Hide();
