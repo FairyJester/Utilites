@@ -15,7 +15,7 @@ namespace Utilites
         private double gas;
         private double water;
         private double electricity;
-      
+     // вывод конечной суммы
         public Form3(double gas, double water, double electricity, double finalGas, double finalElecricity, double finalWater, double finalCost)
         {
            
@@ -30,7 +30,7 @@ namespace Utilites
         }
 
 
-
+//кнопка возврата
         private void button2_Click(object sender, EventArgs e)
         {
             Hide();
