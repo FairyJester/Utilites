@@ -16,7 +16,7 @@ namespace Utilites
         {
             InitializeComponent();
         }
-
+//кнопка перехода на следующее окно и перенос значений тарифа
         private void button1_Click(object sender, EventArgs e)
         {
 
@@ -31,13 +31,14 @@ namespace Utilites
 
             this.Hide();
         }
+//кнопка выхода из приложения
         private void button2_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
         }
 
 
-
+//методы для выбора тарифа по районам
         public double Water()
         {
            
